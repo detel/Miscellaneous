@@ -73,6 +73,7 @@ void loop() {
       wait();
       count = 0;
   }
+  
   delay(1000);
 }
 
