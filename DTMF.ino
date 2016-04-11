@@ -29,8 +29,6 @@ void setup() {
 
 void loop() {
   first:
-  myStepper.step(-stepsPerRevolution);
-  delay(1000);
   int b1 = analogRead(A2) >= 150 ? 1 : 0;
   int b2 = analogRead(A3) >= 150 ? 1 : 0;
   int b3 = analogRead(A4) >= 150 ? 1 : 0;
